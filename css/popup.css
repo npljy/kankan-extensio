@@ -4,6 +4,7 @@
 }
 html,
 body {
+  box-sizing: border-box;
   position: relative;
   width: 520px;
   max-height: 500px;
