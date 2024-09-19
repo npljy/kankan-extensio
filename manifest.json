@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "KK Player",
-  "version": "23.11.012",
+  "version": "24.09.191",
   "description": "KK Player Browser Extension",
   "icons": {
     "16": "img/20x20.png",
