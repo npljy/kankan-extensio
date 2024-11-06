@@ -1,8 +1,13 @@
 {
   "manifest_version": 3,
   "name": "KK Player",
-  "version": "24.09.201",
+  "version": "4.11.6",
   "description": "KK Player Browser Extension",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "niepengsmile@gmail.com"
+    }
+  },
   "icons": {
     "16": "img/20x20.png",
     "48": "img/40x40.png",
@@ -15,7 +20,7 @@
     "storage"
   ],
   "background": {
-    "service_worker": "./js/background.js"
+    "scripts": ["./js/background.js"]
   },
   "action": {
     "default_icon": "img/20x20.png",
@@ -35,7 +40,8 @@
         "./js/jquery.js",
         "./js/utils.js",
         "./js/video.js",
-        "./js/price.js"
+        "./js/price.js",
+        "./js/filter.js"
       ],
       "run_at": "document_end"
     }
